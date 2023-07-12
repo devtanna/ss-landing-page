@@ -20,7 +20,7 @@ export default function Footer() {
                 </Link>
               </div>
               <div className="text-gray-400">
-              DataComply provides secure data ingestion and compliance solutions, empowering businesses to streamline data management while ensuring GDPR compliance and protecting sensitive information.
+              DataComply provides secure data ingestion and compliance solutions, empowering businesses to anonymize data while ensuring GDPR compliance and protecting sensitive information.
               </div>
             </div>
 
@@ -136,7 +136,7 @@ export default function Footer() {
             </ul> */}
 
             {/* Copyrights note */}
-            <div className="text-gray-400 text-sm mr-4">&copy; datacomply.com</div>
+            <div className="text-gray-400 text-sm mr-4">&copy; datacomply.ai</div>
 
           </div>
 

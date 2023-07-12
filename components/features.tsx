@@ -6,8 +6,8 @@ export default function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">The majority our customers do not understand their workflows.</h2>
-            <p className="text-xl text-gray-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h2 className="h3 mb-4">Our customers trust us to anonymize their data, ensuring privacy and compliance.</h2>
+            {/* <p className="text-xl text-gray-400">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> */}
           </div>
 
           {/* Items */}
@@ -21,19 +21,19 @@ export default function Features() {
                 <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
               <h4 className="h4 mb-2">Data Ingestion</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <p className="text-lg text-gray-400 text-center">Effortlessly capture, organize, and harness the full potential of your data with Data Comply's seamless Data Ingestion.</p>
             </div>
 
             {/* 2nd item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-blocks]">
+            {/* <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <circle className="fill-current text-purple-600" cx="32" cy="32" r="32" />
                 <path className="stroke-current text-purple-100" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
-              <h4 className="h4 mb-2">PII Removal</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
-            </div>
+              <h4 className="h4 mb-2">Personal Information Removal</h4>
+              <p className="text-lg text-gray-400 text-center">Safeguard sensitive information and ensure privacy compliance with Data Comply's powerful PII Removal capabilities.</p>
+            </div> */}
 
             {/* 3rd item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
@@ -46,7 +46,7 @@ export default function Features() {
                 </g>
               </svg>
               <h4 className="h4 mb-2">Anonymization</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <p className="text-lg text-gray-400 text-center">Protect individual identities (PII) while maximizing data usability with Data Comply's advanced Anonymization features.</p>
             </div>
 
             {/* 4th item */}
@@ -59,7 +59,7 @@ export default function Features() {
                 </g>
               </svg>
               <h4 className="h4 mb-2">GDPR Compliance</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <p className="text-lg text-gray-400 text-center">Ensure GDPR compliance and data protection with Data Comply's comprehensive solutions for seamless regulatory adherence.</p>
             </div>
 
             {/* 5th item */}
@@ -72,7 +72,7 @@ export default function Features() {
                 </g>
               </svg>
               <h4 className="h4 mb-2">Customizable Rules</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <p className="text-lg text-gray-400 text-center">Tailor data management to your unique needs with Data Comply's flexible and customizable engine.</p>
             </div>
 
             {/* 6th item */}
@@ -86,7 +86,7 @@ export default function Features() {
                 </g>
               </svg>
               <h4 className="h4 mb-2">Data Security</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <p className="text-lg text-gray-400 text-center">Fortify your data against threats and safeguard its integrity with Data Comply's data compliance.</p>
             </div>
 
           </div>
